@@ -1,0 +1,18 @@
+{
+  "name": "Textbook Search",
+  "description": "Easily search for your books by ISBN and compare by price and site.",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "icons": {
+    "128": "icon.png"
+  },
+  "browser_action": {
+    "default_title" : "TextbookSearch",
+    "default_popup" : "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ]
+}

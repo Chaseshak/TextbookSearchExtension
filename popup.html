@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Textbook Search</title>
+
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300" rel="stylesheet">
+
+    <script type="text/javascript" src="dist/js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="textbooksearch.js"></script>
+</head>
+<body>
+    <h3 class="text-center title">Textbook Search <img class="title-icon" src="icon.png"></h3>
+    <p id="info-text" class="text-muted text-center info-text">You can enter your ISBN here and click search or highlight the ISBN on the
+        page and click the Textbook Search icon to search.
+    </p>
+    <form class="form-inline">
+        <div class="form-group search-bar">
+            <label class="sr-only" for="ISBN">Textbook ISBN Number</label>
+            <div class="input-group">
+                <div class="input-group-addon">ISBN #</div>
+                <input id="ISBN" placeholder="Textbook ISBN Number" name="ISBN" class="form-control">
+                <span class="input-group-btn">
+                    <button type="button" id="search-btn" class="btn btn-primary">Search</button>
+                </span>
+            </div>
+        </div>
+    </form>
+    <hr class="separator">
+</body>
+</html>

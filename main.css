@@ -1,0 +1,35 @@
+body{
+    height: 500px;
+    width: 350px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.title{
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.title-icon {
+    width: 32px;
+    height: auto;
+}
+
+.info-text{
+    padding-bottom: 0;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+.alert-danger{
+    margin: 5px 10px;
+}
+
+.separator{
+    padding-top: 0;
+    margin-top: 0;
+    width: 95%;
+}
+
+.search-bar{
+    padding: 10px 10px 5px 10px;
+}
